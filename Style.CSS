@@ -434,7 +434,7 @@ textarea{
 
 }
 
-footer{
+footer{ 
     text-align: center;
     margin-top: 3rem;
     padding: 1rem;
@@ -445,71 +445,48 @@ footer{
 /*----Responsividade do site -------*/ 
 
 
- @media (max-width:768px){
+@media (max-width:768px){
 
-    header,
-    #sobremim,
-    #Formacao,
-    #Portifolio,
-    #Contato{
-        margin: 1rem;
-    }
-
-  
-.header{
-    margin-top: 2rem;
-} 
-
-
-
-    h1{
-        font-size: 2.5rem;
-    }
-    
     nav{
-        height: auto;
+        width: 100%;
         padding: 10px 0;
-      }
-
-
-    nav a{
-        font-size: 0.75rem;
     }
 
     nav ul{
-    gap: 8px;
-    padding-right: 25px;
-    justify-content: center;
-    flex-wrap: nowrap;
-
-}
-  
-
-#tema{
-    position: absolute;
-    right: 5px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 1rem;
-}
-
-
-
-    input,
-    textarea{
-        width:100%;
-    }
-        
-    .redes-sociais{
+        display: flex;
         justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
+
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
 
-    
-
-    #sobremim p{
-        font-size: 1rem;
-        line-height: 1.8;
+    nav a{
+        font-size: 14px;
+        font-weight: 600;
     }
-}  
+
+    #tema{
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 1001;
+    }
+
+    h1{
+        font-size: 2.2rem;
+    }
+
+    body{
+        padding-bottom: 20px;
+    }
+}
+
+
+
+
 
 
