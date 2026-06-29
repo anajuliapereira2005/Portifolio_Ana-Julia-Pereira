@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Ana Julia Pereira</title>
+
+    <link rel="stylesheet" href="Style.CSS">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Alien+Block&family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Single:wght@100..900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pliant:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- header-->
+    <header>
+    <!-- menu de navegação  -->
+        <nav class="menu">
+  
+            <ul>
+                <li><a href="#sobremim">Sobre mim</a></li>
+                <li><a href="#Formacao">Formação</a></li>
+                <li><a href="#Portifolio">Portfólio</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+     
+               <!-- botão modo escuro  --><button id="tema">☾</button>
+        </nav>
+        <!-- div com o titulo  -->
+        <div class="header">
+            <h1>Ana Julia Pereira</h1>
+
+            <h6>
+                CST Análise e Desenvolvimento de Sistemas
+                <br>
+                Uninter - Segundo Semestre
+            </h6>
+        </div>
+       <!-- aside com as minhas redes sociais -->
+        <aside>
+            <div class="redes-sociais">
+
+                <a href="https://www.linkedin.com/in/ana-julia-28b5982a4/" target="_blank">
+                    <img src="Imagens/icons8-linkedin-48.png" alt="LinkedIn">
+                </a>
+
+                <a href="https://github.com/anajuliapereira2005" target="_blank">
+                    <img src="Imagens/icons8-github-50.png" alt="Github">
+                </a>
+
+            </div>
+        </aside>
+
+    </header>
+   
+   
+    <!-- seção sobre mim -->
+    
+        <section id="sobremim">
+
+            <h5 class="classh5">Sobre mim</h5>
+
+            <h2 class="titulo">Olá, seja bem-vindo(a)!</h2>
+
+            
+    
+       
+   <p>
+    <strong class="nome">Meu nome é Ana Julia Pereira de Oliveira</strong>,
+    tenho 20 anos e moro em Jandira, São Paulo. Sou estudante de Análise e Desenvolvimento de Sistemas e apaixonada por tecnologia e desenvolvimento de software.
+
+    Atualmente, estou em constante aprendizado, buscando aprimorar meus conhecimentos e desenvolver projetos que fortaleçam minhas habilidades técnicas. Tenho experiência com as tecnologias destacadas abaixo e meu principal objetivo é construir uma carreira como Desenvolvedora Back-End, criando soluções eficientes, organizadas e inovadoras.
+
+   </p>
+
+    <!-- divs com minhas skils -->
+     <div class="skills">
+         <span>Python</span>
+         <span>JavaScript</span>
+         <span>HTML5</span>
+         <span>CSS3</span>
+        <span>GitHub</span>
+    </div>
+   
+    </section>
+
+<!-- seção com a fomação -->
+        <section id="Formacao">
+
+            <h5 class="titulo1">Formação</h5>
+
+            <div class="card">
+
+                <p class="text1">2025 - Atual</p>
+
+                <h3 class="titulo2">
+                    CST Análise e Desenvolvimento de Sistemas
+                </h3>
+
+                <h6 class="conteiner">Cursando</h6>
+
+                <p class="text">2021 - 2023</p>
+
+                <h3 class="titulo3">Ensino Médio</h3>
+
+                <h6 class="conteiner1">Concluído</h6>
+
+            </div>
+
+        </section>
+      
+        <!-- seção com o portifolio -->
+        
+<section id="Portifolio">
+
+    <h5>Portfólio</h5>
+
+  
+
+<h6>
+Confira os projetos que desenvolvi durante meus estudos de Análise e Desenvolvimento de Sistemas acessando meu GitHub.
+</h6>
+
+
+
+    <a href="https://github.com/anajuliapereira2005?tab=repositories" target="_blank">
+        <img src="Imagens/icons8-estrela-100.png" alt="Projetos GitHub">
+    </a>
+
+</section>
+
+        
+        
+            <!-- formulario-->
+             
+<section id="Contato">
+
+    <h5>Contato</h5>
+
+    <h6 class="text2">
+        Tem uma dúvida, alguma sugestão ou uma oportunidade de trabalho?
+        Entre em contato comigo!
+    </h6>
+              <form id="formulario">
+               <table class="tabela">
+
+    <tr class="linha1">
+        <td><label for="nome">Nome:</label></td>
+        <td>
+            <input type="text" name="nome" id="nome" required>
+        </td>
+    </tr>
+
+    <tr class="linha2">
+        <td><label for="email">Email:</label></td>
+        <td>
+            <input type="email" name="email" id="email" required>
+        </td>
+    </tr>
+
+    <tr class="linha3">
+        <td><label for="mensagem">Digite sua mensagem:</label></td>
+        <td>
+            <textarea
+                name="mensagem"
+                id="mensagem"
+                rows="5"
+                cols="40"
+                placeholder="Digite sua mensagem aqui..."
+                required>
+            </textarea>
+        </td>
+    </tr>
+
+    <tr class="botao">
+        <td></td>
+        <td>
+            <button class="Enviar" type="submit">
+                Enviar
+            </button>
+        </td>
+    </tr>
+
+</table>
+
+<p id="confirmacao"></p>
+                   
+
+</form>
+   
+ </section>
+
+ 
+<footer>
+    <h6>© 2026 Ana Julia Pereira</h6>
+</footer>
+
+ <!-- função do tema claro e escuro-->
+<script>
+const botao = document.getElementById("tema");
+
+botao.addEventListener("click", () => {
+
+    document.body.classList.toggle("dark-mode");
+
+    if(document.body.classList.contains("dark-mode")){
+        botao.textContent = "☀";
+    } else {
+        botao.textContent = "☾";
+    }
+});
+</script>
+ 
+<!-- função para aparecer mensagem enviada com sucesso -->
+<script>
+const formulario = document.getElementById("formulario");
+
+formulario.addEventListener("submit", function(event){
+    event.preventDefault();
+
+    alert("Mensagem enviada com sucesso!");
+});
+</script>
+
+</body>
+
+</html>
